@@ -1,0 +1,20 @@
+[
+    { "id": 1,  "name": "Classic Espresso",       "cat": "hot",     "price": 3.50, "desc": "Rich, bold and balanced. Our signature shot." },
+    { "id": 2,  "name": "Cappuccino",             "cat": "hot",     "price": 4.25, "desc": "Espresso, steamed milk and a thick layer of foam." },
+    { "id": 3,  "name": "Caramel Latte",          "cat": "hot",     "price": 4.95, "desc": "Silky latte with buttery caramel drizzle." },
+    { "id": 4,  "name": "Mocha",                  "cat": "hot",     "price": 4.75, "desc": "Espresso, chocolate and steamed milk." },
+    { "id": 5,  "name": "Americano",              "cat": "hot",     "price": 3.25, "desc": "Espresso topped with hot water. Smooth & clean." },
+    { "id": 6,  "name": "Matcha Latte",           "cat": "hot",     "price": 5.25, "desc": "Ceremonial-grade matcha with creamy milk." },
+    { "id": 7,  "name": "Iced Latte",             "cat": "cold",    "price": 4.50, "desc": "Chilled espresso with cold milk over ice." },
+    { "id": 8,  "name": "Cold Brew",              "cat": "cold",    "price": 4.25, "desc": "Slow-steeped 16 hours for a smooth, low-acid taste." },
+    { "id": 9,  "name": "Frappuccino",            "cat": "cold",    "price": 5.50, "desc": "Blended iced coffee drink with whipped cream." },
+    { "id": 10, "name": "Iced Mocha",             "cat": "cold",    "price": 5.25, "desc": "Cold espresso, chocolate and milk over ice." },
+    { "id": 11, "name": "Mango Smoothie",         "cat": "cold",    "price": 4.95, "desc": "Tropical mango blended with yogurt and ice." },
+    { "id": 12, "name": "Tiramisu",               "cat": "dessert", "price": 5.50, "desc": "Classic Italian dessert with coffee-soaked ladyfingers." },
+    { "id": 13, "name": "Cheesecake",             "cat": "dessert", "price": 5.25, "desc": "Creamy New York style with berry compote." },
+    { "id": 14, "name": "Chocolate Brownie",      "cat": "dessert", "price": 3.95, "desc": "Fudgy and rich, baked fresh daily." },
+    { "id": 15, "name": "Cinnamon Roll",          "cat": "dessert", "price": 3.50, "desc": "Warm, gooey and topped with cream cheese glaze." },
+    { "id": 16, "name": "Breakfast Combo",        "cat": "combo",   "price": 8.95, "desc": "Coffee of choice + croissant + fresh juice." },
+    { "id": 17, "name": "Burger & Fries Combo",   "cat": "combo",   "price": 9.95, "desc": "Juicy beef burger with golden fries & a drink." },
+    { "id": 18, "name": "Coffee + Dessert Combo", "cat": "combo",   "price": 7.50, "desc": "Any coffee paired with a slice of cake." }
+]
