@@ -432,7 +432,7 @@ lightbox.addEventListener('click', (e) => {
 const form        = $('#contact-form');
 const formError   = $('#form-error');
 
-form?.addEventListener('submit', (e) => {
+form?.addEventListener('submit', async (e) => {
     e.preventDefault();
     formError.textContent = '';
 
@@ -498,31 +498,33 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 /* ============================================
    Swiper (testimonials)
    ============================================ */
-new Swiper('.slider-container.swiper', {
-    loop: true,
-    grabCursor: true,
-    spaceBetween: 24,
+if (window.Swiper) {
+    new Swiper('.slider-container.swiper', {
+        loop: true,
+        grabCursor: true,
+        spaceBetween: 24,
 
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-    },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
 
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-    breakpoints: {
-        0:    { slidesPerView: 1 },
-        768:  { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
-    },
+        breakpoints: {
+            0:    { slidesPerView: 1 },
+            768:  { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+        },
 
-    autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-    },
-});
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
+    });
+}
